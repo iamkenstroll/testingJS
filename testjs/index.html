@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function add7() {
+        let num = +prompt("write a number and i will add 7 to it");
+        console.log(7 + num);
+        return 7 + num;
+      }
+
+      function multiply() {
+        let num1 = +prompt(
+          "Welcome to multiplication, write your first number"
+        );
+        let num2 = +prompt("write second number");
+        let c = num1 * num2;
+        console.log(c);
+        return c;
+      }
+
+      function capitalize() {
+        let word = prompt("write a word so i can capitalize the first letter");
+        let firstLetter = word.slice(0, 1);
+        console.log(firstLetter.toUpperCase());
+      }
+
+      function lastletter() {
+        let str = prompt(
+          "Write a word, so i can return the last letter of that word"
+        );
+        let lastText = str.charAt(str.length - 1);
+        console.log(lastText);
+      }
+    </script>
+  </body>
+</html>
